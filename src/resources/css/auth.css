@@ -1,0 +1,111 @@
+.header {
+    background: #000;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+}
+
+.header__logo {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.auth__content {
+    margin: 0 auto;
+    padding: 48px 15px;
+    max-width: 520px;
+}
+
+.auth__heading {
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.auth-form,
+.auth-home__card {
+    padding: 32px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.auth-form__group {
+    margin-bottom: 20px;
+}
+
+.auth-form__group--checkbox {
+    font-size: 14px;
+}
+
+.auth-form__label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.auth-form__input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.auth-form__choices {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.auth-form__choice {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.auth-form__button {
+    display: inline-block;
+    width: 100%;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.auth-form__button--secondary {
+    margin-bottom: 12px;
+    background: #666;
+}
+
+.auth-form__error {
+    margin-top: 8px;
+    color: #d90000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.auth__link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.auth__link a {
+    color: #000;
+}
+
+.auth-home__text {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.auth-home__actions form {
+    margin: 0;
+}
