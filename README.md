@@ -6,7 +6,7 @@
 2. DockerDesktopアプリを立ち上げる
 3. `docker-compose up -d --build`
 
-```bash
+> *MacのM1
 docker compose up -d --build
 ```
 
