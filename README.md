@@ -1,9 +1,9 @@
-# appercamel
+# FashionablyLate（お問い合わせフォーム）
 
 Laravel ベースの問い合わせフォームアプリです。  
 Docker（Nginx / PHP-FPM / MySQL / phpMyAdmin）で動作します。
 
-## 起動手順
+## 環境構築
 
 ```bash
 docker compose up -d --build
