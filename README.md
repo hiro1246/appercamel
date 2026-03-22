@@ -1,9 +1,10 @@
 # FashionablyLate（お問い合わせフォーム）
 
-Laravel ベースの問い合わせフォームアプリです。  
-Docker（Nginx / PHP-FPM / MySQL / phpMyAdmin）で動作します。
-
 ## 環境構築
+**Dockerビルド**
+1. `git clone git@github.com:estra-inc/confirmation-test-contact-form.git`
+2. DockerDesktopアプリを立ち上げる
+3. `docker-compose up -d --build`
 
 ```bash
 docker compose up -d --build
